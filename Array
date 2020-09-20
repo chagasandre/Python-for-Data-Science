@@ -1,0 +1,7 @@
+numeros  = [3, 4, 5,3,4,5,'A']
+total = len(numeros)
+numeros.remove('A')
+soma = 0
+for n in numeros:
+    soma = soma + n
+print('media', round(soma/total,4))
